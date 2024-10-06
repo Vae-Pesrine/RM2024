@@ -1,7 +1,0 @@
-<launch>
-    <include file="$(find usr_fun)/launch/livox_run.launch" />
-    <include file="$(find move_controller)/launch/all.launch" />
-    <node pkg="usr_fun" type="amcl_node" name="amcl_node"/>
-    <include file="$(find usr_fun)/launch/serial.launch" />
-    
-</launch>
