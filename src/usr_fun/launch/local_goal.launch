@@ -1,0 +1,7 @@
+<launch>
+	<node name="local_goal" pkg="usr_fun"
+	      type="local_goal" output="screen" >
+	<param name="test_x" type="double" value="1.50"/>
+	<param name="test_y" type="double" value="0"/>	   <!-- 0:attack  1:protect  2:start -->
+	</node>
+</launch>

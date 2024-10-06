@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find livox_ros_driver2)/launch_ROS1/msg_MID360.launch" />
+    <include file="$(find livox_repub)/launch/livox_CropBox.launch" />
+    <include file="$(find pointcloud_to_laserscan)/launch/mid360_to_laserscan.launch" />  
+</launch>

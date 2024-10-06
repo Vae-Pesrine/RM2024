@@ -1,0 +1,11 @@
+build/
+**/build/
+devel/
+.DS_Store
+src/FAST_LIO/PCD/
+**/.git/
+src/camsense/
+.catkin_tools
+**.csv
+src/FAST_LIO/doc/
+.vscode/*

@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="usr_fun" type="serial_self" name="serial_self" output="screen"/>
+</launch>

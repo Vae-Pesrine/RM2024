@@ -1,0 +1,4 @@
+<launch>
+	<node name="gimbal_serial" pkg="usr_fun" type="gimbal_serial" respawn="true" output="screen"/>
+	<!-- <node name="camense" pkg="usr_fun" type="camense" respawn="true" output="screen" /> -->
+</launch>
